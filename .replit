@@ -1,0 +1,2 @@
+language = "python3"
+run = "pip install git+https://github.com/KennyOliver/VividHues.git#VividHues; python main.py"
