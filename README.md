@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/boolean-expression-calc)](https://repl.it/@KennyOliver/boolean-expression-calc)
 
-Calculate simple boolean expressions
+Calculate simple boolean expressions!
 
 This game uses VividHues - my own Python Package!
 
