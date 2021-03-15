@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/boolean-expression-calc)](https://repl.it/@KennyOliver/boolean-expression-calc)
 
-Business tool to manage Easter egg orders stored in CSV databases
+Calculate simple boolean expressions
 
 ---
 Kenny Oliver ©2021
