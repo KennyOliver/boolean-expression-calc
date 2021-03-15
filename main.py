@@ -9,12 +9,12 @@ first_value, second_value = separate[0].lower(), separate[-1].lower()
 
 if first_value in [0,"false"]:
   first_value = False
-else:
+elif first_value in [1,"true"]:
   first_value = True
 
 if second_value in [1,"true"]:
   second_value = True
-else:
+elif second_value in [1,"false"]:
   second_value = False
 
 
