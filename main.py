@@ -12,18 +12,26 @@ def bool_calc(bool_a,bool_b):
   elif bool_b in ["0","false"]:
     bool_b = False
   
+  # AND
   print(Clr.YELLOW + str(bool_a),Clr.PINK + "AND" + Clr.YELLOW,str(bool_b) + Clr.RESET)
   print(Clr.CYAN,"\t=",bool_a and bool_b,Clr.RESET)
   
+  # OR
   print(Clr.YELLOW + str(bool_a),Clr.PINK + "OR" + Clr.YELLOW,str(bool_b) + Clr.RESET)
   print(Clr.CYAN,"\t=",bool_a or bool_b,Clr.RESET)
   
+  #XOR
+  print(Clr.YELLOW + str(bool_a),Clr.PINK + "XOR" + Clr.YELLOW,str(bool_b) + Clr.RESET)
+  print(Clr.CYAN,"\t=",bool_a ^ bool_b,Clr.RESET)
+  
+  # NOT
   print(Clr.PINK + "NOT",Clr.YELLOW + str(bool_a),",",Clr.PINK + "NOT" + Clr.YELLOW,str(bool_b) + Clr.RESET)
   print(Clr.CYAN,"\t=",not bool_a,",",not bool_b,Clr.RESET)
 #====================
 # MAIN PROGRAM
 print("<-- Boolean Expression Calculator -->")
-print("Enter Boolean values, and see their result for the AND, OR, NOT operators!")
+print("Enter Boolean values, and see their result using Boolean logic operators!")
+print(Clr.PINK + "AND, OR, XOR, NOT" + Clr.RESET)
 
 print(Clr.BLACK,"-" * 30,Clr.RESET)
 expression = input(Clr.LIME + "Enter 1-2 Boolean values (separate by a comma)\n\te.g. True,True\n\t--> " + Clr.RESET)
