@@ -7,14 +7,14 @@ values = expression.split(",")
 first_val, second_val = values[0].lower(), values[-1].lower()
 
 
-if first_val in [0,"false"]:
+if first_val in ["0","false"]:
   first_val = False
-elif first_val in [1,"true"]:
+elif first_val in ["1","true"]:
   first_val = True
 
-if second_val in [1,"true"]:
+if second_val in ["1","true"]:
   second_val = True
-elif second_val in [0,"false"]:
+elif second_val in ["0","false"]:
   second_val = False
 
 
