@@ -34,7 +34,8 @@ print("Enter Boolean values, and see their result using Boolean logic operators!
 print(Clr.PINK + "AND, OR, XOR, NOT" + Clr.RESET)
 
 print(Clr.BLACK,"-" * 30,Clr.RESET)
-expression = input(Clr.LIME + "Enter 1-2 Boolean values (separate by a comma)\n\te.g. True,True\n\t--> " + Clr.RESET)
+print(Clr.LIME + "Enter 1-2 Boolean values (separated by a comma)" + Clr.ORANGE + "\n\t(Single values will be duplicated - i.e. 0 or 1)" + Clr.LIME + "\n\te.g. True,True" + Clr.RESET)
+expression = input(Clr.LIME + "\t--> " + Clr.RESET)
 
 values = expression.split(",")
 first_val, second_val = values[0].lower(), values[-1].lower()
