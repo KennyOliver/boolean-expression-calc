@@ -9,5 +9,9 @@
 
 Calculate simple boolean expressions
 
+This game uses VividHues - my own Python Package!
+
+[![VividHues](https://img.shields.io/badge/Get%20VividHues-252525?style=for-the-badge&logo=python&logoColor=white&link=https://github.com/KennyOliver/VividHues)](https://github.com/KennyOliver/VividHues)
+
 ---
 Kenny Oliver ©2021
