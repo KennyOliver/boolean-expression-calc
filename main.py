@@ -29,7 +29,7 @@ def bool_calc(bool_a,bool_b):
   print(Clr.CYAN,"\t=",not bool_a,",",not bool_b,Clr.RESET)
 #====================
 # MAIN PROGRAM
-print(Clr.UNDERLINE + Clr.CYAN + "<-- Boolean Expression Calculator -->" + Clr.RESET)
+print(Clr.BOLD + Clr.UNDERLINE + Clr.CYAN + "<-- Boolean Expression Calculator -->" + Clr.RESET)
 print("Enter Boolean values, and see their result using Boolean logic operators!")
 print(Clr.PINK + "AND, OR, XOR, NOT" + Clr.RESET)
 
