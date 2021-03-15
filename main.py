@@ -29,14 +29,14 @@ def bool_calc(bool_a,bool_b):
   print(Clr.CYAN,"\t=",not bool_a,",",not bool_b,Clr.RESET)
 #====================
 # MAIN PROGRAM
-print("<-- Boolean Expression Calculator -->")
+print(Clr.UNDERLINE + Clr.CYAN + "<-- Boolean Expression Calculator -->" + Clr.RESET)
 print("Enter Boolean values, and see their result using Boolean logic operators!")
 print(Clr.PINK + "AND, OR, XOR, NOT" + Clr.RESET)
 
 print(Clr.BLACK,"-" * 30,Clr.RESET)
 print(Clr.BOLD + Clr.LIME + "Enter 1-2 Boolean values (separated by a comma)" + Clr.RESET)
-print(Clr.ORANGE + "\t(single values get duplicated - i.e. 0 or 1)")
-print(Clr.LIME + "\te.g. True,True (or 1,1)" + Clr.RESET)
+print(Clr.ORANGE + "\t(single values get duplicated - ie. 0 or 1)")
+print(Clr.LIME + "\teg. True,True (or 1,1)" + Clr.RESET)
 expression = input(Clr.BOLD + Clr.LIME + "\t--> " + Clr.RESET)
 
 values = expression.split(",")
@@ -44,3 +44,4 @@ first_val, second_val = values[0].lower(), values[-1].lower()
 print(Clr.BLACK,"-" * 30,Clr.RESET)
 
 bool_calc(first_val,second_val)
+print(Clr.BLACK,"-" * 30,Clr.RESET)
