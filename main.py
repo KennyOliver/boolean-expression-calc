@@ -3,26 +3,26 @@ from VividHues import Clr
 # MAIN PROGRAM
 expression = input(Clr.LIME + "Enter 2 boolean values (separate by a comma)\n\te.g. True,True\n\t--> " + Clr.RESET)
 
-separate = expression.split(",")
-first_value, second_value = separate[0].lower(), separate[-1].lower()
+values = expression.split(",")
+first_val, second_val = values[0].lower(), values[-1].lower()
 
 
-if first_value in [0,"false"]:
-  first_value = False
-elif first_value in [1,"true"]:
-  first_value = True
+if first_val in [0,"false"]:
+  first_val = False
+elif first_val in [1,"true"]:
+  first_val = True
 
-if second_value in [1,"true"]:
-  second_value = True
-elif second_value in [1,"false"]:
-  second_value = False
+if second_val in [1,"true"]:
+  second_val = True
+elif second_val in [0,"false"]:
+  second_val = False
 
 
-print(Clr.YELLOW + str(first_value),"AND",str(second_value) + Clr.RESET)
-print("\t=",first_value and second_value)
+print(Clr.YELLOW + str(first_val),"AND",str(second_val) + Clr.RESET)
+print("\t=",first_val and second_val)
 
-print(Clr.YELLOW + str(first_value),"OR",str(second_value) + Clr.RESET)
-print("\t=",first_value or second_value)
+print(Clr.YELLOW + str(first_val),"OR",str(second_val) + Clr.RESET)
+print("\t=",first_val or second_val)
 
-print(Clr.YELLOW + "NOT",str(first_value),",","NOT",str(second_value) + Clr.RESET)
-print("\t=",not first_value,",",not second_value)
+print(Clr.YELLOW + "NOT",str(first_val),",","NOT",str(second_val) + Clr.RESET)
+print("\t=",not first_val,",",not second_val)
