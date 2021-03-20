@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/boolean-expression-calc)](https://repl.it/@KennyOliver/boolean-expression-calc)
 
-Calculate simple boolean expressions!
+Calculate simple Boolean expressions!
 AND, OR, XOR, NOT
 
 **boolean-expression-calc** uses **VividHues** - my own Python Package!
